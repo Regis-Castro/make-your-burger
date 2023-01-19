@@ -1,29 +1,24 @@
-# make-your-burger
+# Make your burger
+Este é meu primeiro projeto que fiz utilizando vue.js. Foi feito ao longo do curso de vue3 do professor Matheus Battisti e realizei diversas modificações por questões de UI/UX. Nele é possível fazer montar e pedir hambúrgueres na página <i>"Home"</i> e editar os status dos pedidos/cancelá-los na página "Pedidos". A simulação de uma API foi feita através do JSON SERVER e toda a responsividade foi feita utilizando <i>media queries</i> com CSS puro.
+<br>
+<br> 
 
-This template should help get you started developing with Vue 3 in Vite.
+## Tecnologias utilizadas
+- Vue3
+- JSON server
+<br>
+<br>
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Comandos
+### Clonar o projeto
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```
+git clone
 ```
 
-### Compile and Hot-Reload for Development
+### Acessar a pasta do projeto
 
-```sh
-npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
+cd make-your-burger
 ```

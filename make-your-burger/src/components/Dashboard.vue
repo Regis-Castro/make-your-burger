@@ -24,7 +24,7 @@
           </li>
         </ul>
       </td>
-      <td id="flex">
+      <td class="flex">
         <select name="status" @change="updateBurger($event, burger.id)">
           <option value="">Selecione</option>
           <option
@@ -208,6 +208,11 @@ button:hover {
     flex-direction: column;
   }
 
+  .flex {
+  display: flex;
+  justify-content: space-between;
+  } 
+
   th {
     margin-top: 2px;
     padding: 0;
@@ -231,7 +236,30 @@ button:hover {
     padding: 9.5px;
   }
 
-  button,
+  button {
+    width: auto;
+  }
+}
+
+@media (max-width: 1440px) {
+  .message-container {
+    top: 210px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .message-container {
+    top: 190px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .message-container {
+    top: 170px;
+  }
+}
+
+@media (max-width: 1024px) {
   select {
     width: auto;
   }
@@ -285,7 +313,7 @@ button:hover {
 
 @media (max-width: 360px) {
   .message-container {
-    top: 215px;
+    top: 200px;
   }
 }
 

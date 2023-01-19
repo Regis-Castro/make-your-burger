@@ -14,6 +14,7 @@ export default {
 footer {
   align-items: center;
   background-color: var(--main-color);
+  bottom: 0;
   color: var(--highlight-color);
   display: flex;
   height: 14vh;

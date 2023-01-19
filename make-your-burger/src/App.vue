@@ -20,7 +20,7 @@ export default {
     Navbar,
     Footer,
   },
-}
+};
 </script>
 
 <style>
@@ -38,33 +38,19 @@ export default {
 
 .main-container {
   color: var(--main-color);
-  min-height: 72vh;
+  min-height: 100vh;
   padding: 4%;
-}
-
-@media (max-width: 1024px) {
-  .main-container {
-    min-height: 60vh;
-  }
 }
 
 @media (max-width: 834px) {
   h1 {
     font-size: 1.6rem;
   }
-
-  .main-container {
-    min-height: 60.75vh;
-  }
 }
 
 @media (max-width: 414px) {
   h1 {
     margin-top: 3vh;
-  }
-
-  .main-container {
-    min-height: 75.3vh;
   }
 }
 
