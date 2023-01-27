@@ -9,7 +9,7 @@ Este é meu primeiro projeto que fiz utilizando vue.js. Foi feito ao longo do cu
 <br>
 <br>
 
-![](https://github.com/Regis-Castro/make-your-burger/blob/main/make-your-burger.gif)
+![](https://github.com/Regis-Castro/make-your-burger/blob/main/make-your-burger/make-your-burger.gif)
 <br>
 <br>
 
